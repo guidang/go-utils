@@ -6,9 +6,9 @@ import (
 )
 
 /*
-IP2long IP 转整型
+IP2Long IP 转整型
 */
-func IP2long(ipstr string) uint32 {
+func IP2Long(ipstr string) uint32 {
 	ip := net.ParseIP(ipstr)
 	if ip == nil {
 		return 0
