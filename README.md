@@ -2,6 +2,6 @@
 Golang utils with go standard library
 
 ### Author
-Author: Skiychan
-Email : dev@skiy.net
-Link  : https://www.skiy.net
+Author: Skiychan   
+Email : dev@skiy.net   
+Link  : https://www.skiy.net   
