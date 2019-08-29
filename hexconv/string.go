@@ -6,3 +6,8 @@ import "encoding/hex"
 func String(str string) string {
 	return hex.EncodeToString([]byte(str))
 }
+
+// Bytes HexString To []byte
+func Bytes(str string) ([]byte, error) {
+	return hex.DecodeString(str)
+}
